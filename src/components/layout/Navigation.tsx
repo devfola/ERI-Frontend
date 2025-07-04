@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Shield, Sun, Moon, Menu, X, Building2, User, QrCode, ChevronLeft, ChevronRight } from 'lucide-react';
-import { useTheme } from '../contexts/ThemeContext';
-import { useWallet } from '../contexts/WalletContext';
-import { Button } from './ui/Button';
-import { NotificationBell } from './NotificationBell';
+import { useTheme } from '../../contexts/ThemeContext';
+import { useWallet } from '../../contexts/WalletContext';
+import { Button } from '../ui/Button';
+import { NotificationBell } from '../common/NotificationBell';
 
 interface NavigationProps {
   currentPage: 'landing' | 'manufacturer' | 'user' | 'qr-scan';

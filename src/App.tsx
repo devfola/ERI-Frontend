@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { Navigation } from './components/Navigation';
-import { Sidebar } from './components/Sidebar';
+import { Navigation } from './components/layout/Navigation';
+import { Sidebar } from './components/layout/Sidebar';
 import { LandingPage } from './pages/LandingPage';
 import { ManufacturerPage } from './pages/ManufacturerPage';
 import { UserPage } from './pages/UserPage';
